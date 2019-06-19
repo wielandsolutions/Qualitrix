@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.contoso.generic.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.contoso.testscripts.TC15_Publishing_The_Shifts">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="TC15_Publish_Shifts"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- org.contoso.testscripts.TC15_Publishing_The_Shifts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

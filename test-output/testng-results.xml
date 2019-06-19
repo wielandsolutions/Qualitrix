@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="184551" started-at="2019-05-21T07:23:23Z" finished-at="2019-05-21T07:26:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="184551" started-at="2019-05-21T07:23:23Z" finished-at="2019-05-21T07:26:27Z">
+      <class name="org.contoso.testscripts.TC14_Verify_Shift_Details_CancelAssigned_DeleteUnassigned_Shifts">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:org.contoso.testscripts.TC14_Verify_Shift_Details_CancelAssigned_DeleteUnassigned_Shifts@26653222]" name="openApplication" is-config="true" duration-ms="4423" started-at="2019-05-21T00:24:50Z" finished-at="2019-05-21T00:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="TC14_Verify_Shift_Details()[pri:0, instance:org.contoso.testscripts.TC14_Verify_Shift_Details_CancelAssigned_DeleteUnassigned_Shifts@26653222]" name="TC14_Verify_Shift_Details" duration-ms="92342" started-at="2019-05-21T00:24:54Z" finished-at="2019-05-21T00:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_Verify_Shift_Details -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:org.contoso.testscripts.TC14_Verify_Shift_Details_CancelAssigned_DeleteUnassigned_Shifts@26653222]" name="closeApplication" is-config="true" duration-ms="723" started-at="2019-05-21T00:26:26Z" finished-at="2019-05-21T00:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- org.contoso.testscripts.TC14_Verify_Shift_Details_CancelAssigned_DeleteUnassigned_Shifts -->
+      <class name="org.contoso.testscripts.TC13_Manual_Assignment_Of_Shifts">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:org.contoso.testscripts.TC13_Manual_Assignment_Of_Shifts@5e5792a0]" name="openApplication" is-config="true" duration-ms="5502" started-at="2019-05-21T00:23:23Z" finished-at="2019-05-21T00:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="TC13_Manually_Assigning_The_Shifts()[pri:0, instance:org.contoso.testscripts.TC13_Manual_Assignment_Of_Shifts@5e5792a0]" name="TC13_Manually_Assigning_The_Shifts" duration-ms="80175" started-at="2019-05-21T00:23:28Z" finished-at="2019-05-21T00:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_Manually_Assigning_The_Shifts -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:org.contoso.testscripts.TC13_Manual_Assignment_Of_Shifts@5e5792a0]" name="closeApplication" is-config="true" duration-ms="1363" started-at="2019-05-21T00:24:48Z" finished-at="2019-05-21T00:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- org.contoso.testscripts.TC13_Manual_Assignment_Of_Shifts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
